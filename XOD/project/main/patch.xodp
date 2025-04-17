@@ -1,0 +1,240 @@
+{
+  "links": [
+    {
+      "id": "By3rBX62Z",
+      "input": {
+        "nodeId": "ryVWS7a3W",
+        "pinKey": "r1bVLR_BPJW"
+      },
+      "output": {
+        "nodeId": "Hk3MSXphb",
+        "pinKey": "B19RYS3lW"
+      }
+    },
+    {
+      "id": "H1wTQSC2-",
+      "input": {
+        "nodeId": "HJgT7BC3W",
+        "pinKey": "Bkh8A_Sv1-"
+      },
+      "output": {
+        "nodeId": "ryVWS7a3W",
+        "pinKey": "B1gN80uHvk-"
+      }
+    },
+    {
+      "id": "HJLHHQT2W",
+      "input": {
+        "nodeId": "rke7rmp2b",
+        "pinKey": "HJjZLRdBw1-"
+      },
+      "output": {
+        "nodeId": "HJiVBXT3W",
+        "pinKey": "Sy8IcKdIZ"
+      }
+    },
+    {
+      "id": "HksHH762b",
+      "input": {
+        "nodeId": "ryVWS7a3W",
+        "pinKey": "SJMVU0urvkZ"
+      },
+      "output": {
+        "nodeId": "rke7rmp2b",
+        "pinKey": "HktZUCdrPkZ"
+      }
+    },
+    {
+      "id": "S1xvwSAhb",
+      "input": {
+        "nodeId": "BkCUS762-",
+        "pinKey": "SkSuD6LMb"
+      },
+      "output": {
+        "nodeId": "ryVWS7a3W",
+        "pinKey": "B1gN80uHvk-"
+      }
+    },
+    {
+      "id": "SJt6QHC3-",
+      "input": {
+        "nodeId": "rk1XHmThZ",
+        "pinKey": "S1yZIA_rDJZ"
+      },
+      "output": {
+        "nodeId": "HJgT7BC3W",
+        "pinKey": "HkyxURuSPyW"
+      }
+    },
+    {
+      "id": "Sk_Srmpnb",
+      "input": {
+        "nodeId": "Hk3MSXphb",
+        "pinKey": "rJg00Nhe-"
+      },
+      "output": {
+        "nodeId": "HJiVBXT3W",
+        "pinKey": "Sy8IcKdIZ"
+      }
+    },
+    {
+      "id": "Sy1JVS0hZ",
+      "input": {
+        "nodeId": "HJgT7BC3W",
+        "pinKey": "B1RU0OrDkb"
+      },
+      "output": {
+        "nodeId": "BkCUS762-",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "S1h0YuR0yg",
+      "input": {
+        "nodeId": "SyDhtOCR1l",
+        "pinKey": "Bk5lexBtE"
+      },
+      "output": {
+        "nodeId": "rk1XHmThZ",
+        "pinKey": "S13xLCuHvkW"
+      }
+    },
+    {
+      "id": "HyTsod0Ckl",
+      "input": {
+        "nodeId": "HJiVBXT3W",
+        "pinKey": "SkbLqKdUW"
+      },
+      "output": {
+        "nodeId": "By0DY_00Jx",
+        "pinKey": "HJrin98LS"
+      }
+    },
+    {
+      "id": "SJqORdCA1g",
+      "input": {
+        "nodeId": "B1JuAdCR1e",
+        "pinKey": "HJ6HsEngZ"
+      },
+      "output": {
+        "nodeId": "ryVWS7a3W",
+        "pinKey": "B1gN80uHvk-"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "Skre8ROSv1-": "5"
+      },
+      "id": "BkCUS762-",
+      "position": {
+        "units": "slots",
+        "x": 17,
+        "y": 5
+      },
+      "type": "xod/core/delay"
+    },
+    {
+      "id": "HJgT7BC3W",
+      "position": {
+        "units": "slots",
+        "x": 15,
+        "y": 6
+      },
+      "type": "xod/core/flip-flop"
+    },
+    {
+      "id": "HJiVBXT3W",
+      "position": {
+        "units": "slots",
+        "x": 15,
+        "y": 2
+      },
+      "type": "xod/units/m-to-cm"
+    },
+    {
+      "boundLiterals": {
+        "HJbACN3gb": "5"
+      },
+      "id": "Hk3MSXphb",
+      "position": {
+        "units": "slots",
+        "x": 17,
+        "y": 3
+      },
+      "type": "xod/core/greater"
+    },
+    {
+      "boundLiterals": {
+        "r1AgIROHDJW": "0.85",
+        "ryTeUROHD1b": "0.05"
+      },
+      "id": "rk1XHmThZ",
+      "position": {
+        "units": "slots",
+        "x": 15,
+        "y": 7
+      },
+      "type": "xod/core/if-else"
+    },
+    {
+      "boundLiterals": {
+        "SJqZ8COrDkW": "40"
+      },
+      "id": "rke7rmp2b",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 3
+      },
+      "type": "xod/core/less"
+    },
+    {
+      "id": "ryVWS7a3W",
+      "position": {
+        "units": "slots",
+        "x": 15,
+        "y": 4
+      },
+      "type": "xod/core/and"
+    },
+    {
+      "boundLiterals": {
+        "BkHy258IB": "D2",
+        "H1gBkhc88H": "D3"
+      },
+      "id": "By0DY_00Jx",
+      "position": {
+        "units": "slots",
+        "x": 15,
+        "y": 1
+      },
+      "type": "xod-dev/hc-sr04/hc-sr04-range-meter"
+    },
+    {
+      "boundLiterals": {
+        "BkXK1eBYV": "D5"
+      },
+      "id": "SyDhtOCR1l",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 8
+      },
+      "type": "xod-dev/servo/servo"
+    },
+    {
+      "boundLiterals": {
+        "rJjXFA9JQ": "D13"
+      },
+      "id": "B1JuAdCR1e",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 5
+      },
+      "type": "xod/gpio/digital-write"
+    }
+  ]
+}
