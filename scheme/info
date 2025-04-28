@@ -1,0 +1,144 @@
+{
+  "uuid": "c5252d62b112401cf28ced8ac402566b",
+  "path": "Offline/SmartBin",
+  "name": "SmartBin",
+  "content": "",
+  "created_at": "2025-04-24 16:08:56",
+  "updated_at": "2025-04-28 11:19:05",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "36c2b66ab7e9cd91941db1b0cfcd3d40",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b7adf400643b4936be8b786704d0e70f": 1,
+        "e99462eebcd544dda34f0d9be203fb0a": 1,
+        "a7291ceaee5442a999df26c55c7e675d": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-F-2.54_1x3",
+          1,
+          "HDR-F-2.54_1X3",
+          "H1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C146690"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U1",
+          {
+            "Manufacturer Part": "ARDUINO_NANO",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879"
+          }
+        ],
+        [
+          "HC-SR04",
+          1,
+          "TH_HC-SR04V",
+          "U2",
+          {
+            "Manufacturer Part": "HC-SR04",
+            "Manufacturer": "Universal Microelectronics",
+            "Supplier": "LCSC",
+            "Supplier Part": "C19857336"
+          }
+        ]
+      ],
+      "updateTime": 1745500136,
+      "createTime": 1745500136,
+      "histories": [],
+      "created_at": "2025-04-24 16:08:56",
+      "updated_at": "2025-04-24 16:08:56"
+    },
+    {
+      "uuid": "48c3e93d8db9cd2eb2659735fbc06fc4",
+      "puuid": "c5252d62b112401cf28ced8ac402566b",
+      "title": "PCB_trashcan_1_2",
+      "filename": "PCB_trashcan_1_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f83673d09e13450d934ca6be4be5af8f": 1,
+        "ff6e2030776d4574a7594ce501bb86c5": 1,
+        "53d0d26a4ab14bb6b3dde31a53210ba1": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-F-2.54_1x3",
+          1,
+          "HDR-F-2.54_1X3",
+          "H1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C146690"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U1",
+          {
+            "Manufacturer Part": "ARDUINO_NANO",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879"
+          }
+        ],
+        [
+          "HC-SR04",
+          1,
+          "TH_HC-SR04V",
+          "U2",
+          {
+            "Manufacturer Part": "HC-SR04",
+            "Manufacturer": "Universal Microelectronics",
+            "Supplier": "LCSC",
+            "Supplier Part": "C19857336"
+          }
+        ]
+      ],
+      "updateTime": 1745504003,
+      "createTime": 1745500840,
+      "histories": [],
+      "created_at": "2025-04-24 16:20:40",
+      "updated_at": "2025-04-24 17:13:23"
+    }
+  ],
+  "sort": [],
+  "title": "SmartBin",
+  "foldername": "SmartBin",
+  "schfilename": "SmartBin.json",
+  "schfilemtime": 1745500136409
+}
